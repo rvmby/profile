@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #22223b;
+  font-family: Helvetica;
+  font-weight: 300;
+  color: darkblue;
+  font-size:large;
+  line-height:normal;
+}
+
+header {
+  color: darkblue;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:'Courier New', Courier, monospace;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #5032d4f5;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: #f2e9e4;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px #4a4e69;
+}
+
+.card-small {
+  background: #22223b;
+  color: white;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.list-inline {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.social {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: large;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
